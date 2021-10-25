@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+@import "../assets/fonts/HancomMalangMalang/stylesheet";
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css');
+
+body {
+  @apply bg-portfolio-background;
+
+  font-family: HancomMalangMalang, sans-serif;
+}
+
+#fp-nav {
+  right: 32px !important;
+  &::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 10px;
+    left: calc(50% - 1px);
+    width: 1px;
+    background: #707070;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    li {
+      width: 30px !important;
+      a {
+        &.active {
+          span {
+            background: #2E75E1 !important;
+            border: 1.5px solid #00000000 !important;
+          }
+        }
+        &:not(.active) {
+          span {
+            //background: transparent !important;
+            border: 1.5px solid #0D4497;
+            @apply bg-portfolio-background;
+          }
+        }
+
+        span {
+          margin: 0 !important;
+          left: 0 !important;
+          top: 0 !important;
+          transition: all ease .5s !important;
+          //background: #fff !important;
+          width: 30px !important;
+          height: 30px !important;
+        }
+      }
+    }
+  }
+}
