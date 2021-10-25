@@ -80,6 +80,9 @@ const Home: NextPage = () => {
                     </div>
                   </div>
                 </div>
+                <div className="flex justify-center text-lg mt-2">
+                  Copyright © 2021 Kyllox All rights reserved.
+                </div>
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@ const Header: React.FC = () => {
   return (
     <div>
       <div
-        className="fixed h-24 left-0 top-0 w-full text-white bg-portfolio-header flex items-center justify-center px-6 border-b"
+        className="fixed h-24 left-0 top-0 w-full text-white bg-portfolio-header flex items-center justify-center px-6"
         style={{ zIndex: 99999 }}
       >
         <div className="container flex items-center gap-8">
