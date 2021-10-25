@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <div>
       <Header />
       <ReactFullpage
-        anchors={['home', 'skills', 'connection']}
+        anchors={['home', 'skills', 'connection', 'footer']}
         licenseKey="OPEN-SOURCE-GPLv3-LICENSE"
         navigation
         navigationPosition="right"
@@ -35,6 +35,40 @@ const Home: NextPage = () => {
             </div>
             <div className="section">2</div>
             <div className="section">3</div>
+            <div className="section fp-auto-height">
+              <div className="px-6 border-t py-6">
+                <div className="container mx-auto">
+                  <div className="flex gap-8">
+                    <div className="flex flex-col flex-grow">
+                      <div className="text-3xl text-portfolio-blue font-bold">
+                        Kyllox
+                      </div>
+                      <div className="text-xl text-portfolio-gray">
+                        Game Developer
+                      </div>
+                    </div>
+                    <div className="flex flex-col text-portfolio-gray gap-2">
+                      <div className="text-xl font-bold">Pages</div>
+                      <a href="#home" className="text-md font-bold">
+                        Home
+                      </a>
+                      <a href="#skills" className="text-md font-bold">
+                        Skills
+                      </a>
+                      <a href="#connection" className="text-md font-bold">
+                        Connection
+                      </a>
+                    </div>
+                    <div className="flex flex-col text-portfolio-gray gap-2">
+                      <div className="text-xl font-bold">Contact</div>
+                      <div className="text-md font-bold">Discord</div>
+                      <div className="text-md font-bold">Email</div>
+                      <div className="text-md font-bold">Github</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         )}
       />
