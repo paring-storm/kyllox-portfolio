@@ -9,6 +9,8 @@ body {
   @apply bg-portfolio-background;
 
   font-family: HancomMalangMalang, sans-serif;
+
+  user-select: none;
 }
 
 #fp-nav {
