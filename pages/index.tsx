@@ -36,7 +36,7 @@ const Home: NextPage = () => {
             <div className="section">2</div>
             <div className="section">3</div>
             <div className="section fp-auto-height">
-              <div className="px-6 border-t py-6">
+              <div className="px-6 py-6">
                 <div className="container mx-auto">
                   <div className="flex gap-8">
                     <div className="flex flex-col flex-grow">
@@ -61,9 +61,22 @@ const Home: NextPage = () => {
                     </div>
                     <div className="flex flex-col text-portfolio-gray gap-2">
                       <div className="text-xl font-bold">Contact</div>
-                      <div className="text-md font-bold">Discord</div>
-                      <div className="text-md font-bold">Email</div>
-                      <div className="text-md font-bold">Github</div>
+                      <a className="text-md font-bold">Discord</a>
+                      <a
+                        href="mailto:kyllox4804@gmail.com"
+                        rel="noreferrer"
+                        className="text-md font-bold"
+                      >
+                        Email
+                      </a>
+                      <a
+                        href="https://github.com/KylloxStudio"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-md font-bold"
+                      >
+                        Github
+                      </a>
                     </div>
                   </div>
                 </div>
