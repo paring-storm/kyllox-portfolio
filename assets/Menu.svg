@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <clipPath id="clip-Menu">
+      <rect width="128" height="128"/>
+    </clipPath>
+  </defs>
+  <g id="Menu" clip-path="url(#clip-Menu)">
+    <g id="Icon_ionic-ios-menu" data-name="Icon ionic-ios-menu" transform="translate(7 14.083)">
+      <path id="패스_31" data-name="패스 31" d="M100.083,30.333H13.917A3.928,3.928,0,0,1,10,26.417h0A3.928,3.928,0,0,1,13.917,22.5h86.167A3.928,3.928,0,0,1,104,26.417h0A3.928,3.928,0,0,1,100.083,30.333Z" fill="#fff"/>
+      <path id="패스_32" data-name="패스 32" d="M100.083,45.333H13.917A3.928,3.928,0,0,1,10,41.417h0A3.928,3.928,0,0,1,13.917,37.5h86.167A3.928,3.928,0,0,1,104,41.417h0A3.928,3.928,0,0,1,100.083,45.333Z" transform="translate(0 8.5)" fill="#fff"/>
+      <path id="패스_33" data-name="패스 33" d="M100.083,60.333H13.917A3.928,3.928,0,0,1,10,56.417h0A3.928,3.928,0,0,1,13.917,52.5h86.167A3.928,3.928,0,0,1,104,56.417h0A3.928,3.928,0,0,1,100.083,60.333Z" transform="translate(0 17)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
